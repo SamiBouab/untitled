@@ -1,1 +1,205 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1360000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have A Matrix",
+            "match": {
+              "location": "MatrixSteps.iHaveAMatrix()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-10T14:39:50.955Z",
+        "line": 5,
+        "name": "Cofactor",
+        "description": "",
+        "id": "matrix;cofactor",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I compute cofactor of",
+            "match": {
+              "location": "MatrixSteps.iComputeCofactorOf(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "col1",
+                  "col2"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "4"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 976000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result of cofactor is",
+            "match": {
+              "location": "MatrixSteps.iFindAsCofactoreResult(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "col1",
+                  "col2"
+                ]
+              },
+              {
+                "cells": [
+                  "4",
+                  "-3"
+                ]
+              },
+              {
+                "cells": [
+                  "-2",
+                  "1"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have A Matrix",
+            "match": {
+              "location": "MatrixSteps.iHaveAMatrix()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-10T14:39:50.995Z",
+        "line": 17,
+        "name": "Inverse",
+        "description": "",
+        "id": "matrix;inverse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I compute inverse of",
+            "match": {
+              "location": "MatrixSteps.iComputeInverseOf(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "col1",
+                  "col2"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "4"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The result of inverse is",
+            "match": {
+              "location": "MatrixSteps.iFindAsInverseResult(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "col1",
+                  "col2"
+                ]
+              },
+              {
+                "cells": [
+                  "-2",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "1.5",
+                  "-0.5"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Matrix",
+    "description": "",
+    "id": "matrix",
+    "keyword": "Feature",
+    "uri": "file:Features/matrix.feature",
+    "tags": []
+  }
+]
