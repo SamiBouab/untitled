@@ -19,6 +19,8 @@ public class Matrix {
 		this.ncols = data[0].length;
 	}
 
+
+
 	public Matrix(int nrow, int ncol) {
 		this.nrows = nrow;
 		this.ncols = ncol;
